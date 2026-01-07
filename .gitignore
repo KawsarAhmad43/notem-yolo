@@ -1,0 +1,51 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE/Editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# ML/YOLO specific
+runs/
+*.pt  # Model weights (unless versioned)
+weights/*.pt
+
+# Data (large/raw files)
+# data/training/*
+# data/testing/*
+data/yolo_dataset/*
+data/*.yaml  # If not versioned
+
+# Temp files
+temp/
+*.tmp
+*.bak
+*.swp
+
+# Other
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg

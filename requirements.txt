@@ -1,0 +1,12 @@
+fastapi==0.115.0
+uvicorn==0.32.0
+python-multipart==0.0.12
+ultralytics==8.3.0  # YOLOv8
+pillow==10.4.0
+numpy==1.26.4
+opencv-python==4.10.0.84  # For image processing
+torch==2.4.1  # If needed for YOLO (ultralytics handles it)
+jupyter==1.1.1  # For notebooks
+labelImg
+tensorboard
+ultralytics

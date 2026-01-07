@@ -1,0 +1,31 @@
+path: data/yolo_dataset  # Dataset root
+
+train: images/train
+val: images/val
+test: images/test  # Optional
+
+# Classes (modified to _taka for clarity)
+names:
+  0: 1_taka
+  1: 2_taka
+  2: 5_taka
+  3: 10_taka
+  4: 20_taka
+  5: 50_taka
+  6: 100_taka
+  7: 500_taka
+  8: 1000_taka
+
+# Optional augmentations
+hsv_h: 0.015
+hsv_s: 0.7
+hsv_v: 0.4
+degrees: 10.0
+translate: 0.1
+scale: 0.5
+shear: 2.0
+perspective: 0.0
+flipud: 0.5
+fliplr: 0.5
+mosaic: 1.0
+mixup: 0.0
