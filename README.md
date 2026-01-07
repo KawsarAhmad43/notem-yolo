@@ -10,6 +10,7 @@ This project detects and classifies Bangladeshi Taka banknotes (1, 2, 5, 10, 20,
 - Docker support.
 
 ## Project Structure
+```bash
 notem/
 ├── data/                # Data folders
 │   ├── training/        # Class folders (1/, etc.) + takas.png
@@ -38,7 +39,7 @@ notem/
 ├── Dockerfile
 ├── .gitignore
 └── README.md
-
+```
 ## Setup
 1. Create/activate venv: `python -m venv venv && source venv/bin/activate`
 2. Install: `pip install -r requirements.txt`
